@@ -6,7 +6,7 @@ const DashboardView = () => {
 
   return (
     <div>
-      this is a stupid div
+      DashboardView
     </div>
   );
 };

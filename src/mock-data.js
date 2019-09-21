@@ -1,0 +1,62 @@
+const courseOverview = [
+  {
+    id: '50691',
+    reviews: 6349,
+    workload: 6239,
+    difficulty: 90200,
+    rating: 3.5,
+    enrolled: 69469,
+    greaterThanB: 295,
+    lessThanC: 23.5,
+    withdrew: 4120,
+  },
+  {
+    id: '50639',
+    reviews: 659,
+    workload: 969,
+    difficulty: 908900,
+    rating: 2.5,
+    enrolled: 66969,
+    greaterThanB: 495,
+    lessThanC: 22.5,
+    withdrew: 4420,
+  },
+  {
+    id: '50641',
+    reviews: 619,
+    workload: 692,
+    difficulty: 94000,
+    rating: 0.5,
+    enrolled: 69569,
+    greaterThanB: 895,
+    lessThanC: 20.5,
+    withdrew: 4260,
+  },
+  {
+    id: '50760',
+    reviews: 689,
+    workload: 689,
+    difficulty: 90800,
+    rating: 83.5,
+    enrolled: 69689,
+    greaterThanB: 985,
+    lessThanC: 82.5,
+    withdrew: 4820,
+  },
+  {
+    id: '50743',
+    reviews: 649,
+    workload: 769,
+    difficulty: 90500,
+    rating: 37.5,
+    enrolled: 69679,
+    greaterThanB: 975,
+    lessThanC: 2.75,
+    withdrew: 4720,
+  },
+  
+];
+
+export {
+  courseOverview,
+}

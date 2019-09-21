@@ -1,0 +1,13 @@
+@import '~carbon-components/css/carbon-components';
+@import './src/scss/css-overrides';
+
+// Define CSS variables here
+:root {
+  --burnt-orange: #BF5700;
+  --dark-gray: #333F48;
+}
+
+.application__nav-bar {
+  background-color: var(--burnt-orange);
+  list-style: none;
+}
