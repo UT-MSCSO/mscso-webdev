@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Toolbar, ToolbarItem, ToolbarTitle } from 'carbon-components-react';
+import { Toolbar, ToolbarItem } from 'carbon-components-react';
 
 const ApplicationView = () => {
   return (

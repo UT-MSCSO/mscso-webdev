@@ -7,6 +7,7 @@ import DashboardView from './views/DashboardView';
 import CoursesView from './views/CoursesView';
 import LoginView from './views/LoginView';
 import RecentView from './views/RecentView';
+import CourseView from './views/CourseView';
 
 import './app.scss';
 
@@ -17,11 +18,12 @@ function App() {
     <Router history={history}>
       <Route path="/" component={ApplicationView} />
       <Route exact path="/" component={DashboardView} />
-      <Route path="/courses" component={CoursesView} />
+      <Route exact path="/courses" component={CoursesView} />
+      <Route path="/courses/:courseId" component={CourseView} />
       <Route path="/login" component={LoginView} />
       <Route path="/recent" component={RecentView} />
 
-      {/** TODO Add auth */}
+      {/** TODO add auth */}
     </Router>
   );
 }
