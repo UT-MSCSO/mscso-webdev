@@ -5,8 +5,8 @@ const DashboardView = () => {
   }, []);
 
   return (
-    <div>
-      DashboardView
+    <div className="main-content">
+      Hey y'all, this is an MVP :D
     </div>
   );
 };

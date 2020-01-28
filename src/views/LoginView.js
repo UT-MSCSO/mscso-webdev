@@ -2,8 +2,8 @@ import React from 'react';
 
 const LoginView = () => {
   return (
-    <div>
-      LoginView
+    <div className="main-content">
+      Log me in cap'n.
     </div>
   )
 }

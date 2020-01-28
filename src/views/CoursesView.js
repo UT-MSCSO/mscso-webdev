@@ -7,7 +7,8 @@ import {
   TableContainer,
   TableHead,
   TableHeader,
-  TableRow
+  TableRow, 
+  Link,
 } from 'carbon-components-react';
 import { courses } from '../utils';
 import { courseOverview as mockCourseOverview } from '../mock-data';
@@ -57,15 +58,16 @@ const CoursesView = () => {
   ];
 
   return (
-    <div>
+    <div className="main-content">
       <DataTable
         rows={mockCourseOverview.map(course => {
           // Find course number and name
-          const number = courses.find(c => c.id === course.id).number;
-          const name = courses.find(c => c.id === course.id).name;
+          const currentCourse = courses.find(c => c.id === course.id);
+          const number = currentCourse.number;
+          const name = currentCourse.name;
           return ({
             ...course,
-            name: `CS ${number} ${name}`,
+            name: <Link href={`/course/${course.id}`}>{`CS ${number} ${name}`}</Link>,
           });
         })}
         headers={headers}

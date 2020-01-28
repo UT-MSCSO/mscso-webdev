@@ -5,9 +5,30 @@
 :root {
   --burnt-orange: #BF5700;
   --dark-gray: #333F48;
+  --white: #fff;
 }
 
+.main-content {
+  padding: 1rem;
+}
+
+// nav bar styles
 .application__nav-bar {
   background-color: var(--burnt-orange);
   list-style: none;
+  font-weight: 600;
+  padding-left: 1rem;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    color: var(--white);
+    text-decoration: none;
+    margin-right: .5rem;
+  }
+
+  // carbon overrides
+  .bx--toolbar {
+    margin: 0;
+  }
 }

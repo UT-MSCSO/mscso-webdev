@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const CourseView = () => {
   return (
-    <div>
+    <div className="main-content">
       Individual course page!!!
     </div>
   )
