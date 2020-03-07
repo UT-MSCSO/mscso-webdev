@@ -1,8 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Links
-[WebDev Trello Board](https://trello.com/b/1LjepmKW/mscso-webdev)
-
 ## Set Up
 `npm install`
 
